@@ -5,7 +5,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return '<h1>Jeg elsker Anne-Cathrine</h1>'
+    return '<h1>I love Anne-Cathrine</h1>'
+
+
+@app.route('/about')
+def about():
+    return '<h1>The about page </h1>'
 
 
 # Press the green button in the gutter to run the script.
